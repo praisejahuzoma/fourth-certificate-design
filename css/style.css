@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Roboto&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     text-align:center;
+ }
+
+ .container-body{
+     background-image: url(/image/Certificate\ bg.png);
+     background-size: cover;
+     background-position:center;
+     background-repeat: no-repeat;
+     height: 80vh;
+     width: 65%;    
+ }
+ .main-container{
+     display: flex;
+     justify-content:center;
+     flex-direction: row;
+     vertical-align: middle;
+ }
+.section-body{
+     position: relative;
+     top: 3rem;
+ }
+h3::before, h3::after{
+    font-size: 28px;
+    color: #d89729;
+    content:'\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+     margin: auto 1em;
+}
+h3 {
+        font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: black;
+}
+.hr{
+    background-color:rgb(75, 72, 72);
+    margin-top: 1rem;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    margin-top: 2rem; 
+}
+h2{
+    font-family: 'Allura', cursive;
+    font-size: 3.4rem;
+    margin-top: 3rem;
+    color:#297fb8;
+    letter-spacing:3px ;
+}
+p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+}
+h6{
+ font-family: 'Roboto', sans-serif;
+}
+.name{
+     font-family: 'Roboto', sans-serif;
+    color: rgb(44, 42, 42);
+}
+
+.section-container{
+   display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.section-container img{
+   width: 7rem;
+   margin-top: -2rem;
+
+}
+.section-hr{
+   width: 6.5rem;
+   margin-top: 0.7rem;
+}
+
+.first-name, .surname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
